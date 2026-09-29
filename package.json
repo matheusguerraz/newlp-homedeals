@@ -1,0 +1,19 @@
+{
+  "name": "home-deals-landing",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Landing page de aquisição para os grupos Home Deals.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "check": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
