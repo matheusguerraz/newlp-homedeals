@@ -50,8 +50,11 @@ home-deals-site/
 ## Conversão e mensuração
 
 - O CTA direciona para o grupo oficial do WhatsApp.
-- Parâmetros `utm_source`, `utm_medium`, `utm_campaign` e `utm_content` são preservados durante a sessão.
-- Cliques nos CTAs enviam o evento `click_join_whatsapp` para `window.dataLayer`.
+- Parâmetros `utm_source`, `utm_medium`, `utm_campaign`, `utm_content`, `utm_term` e `utm_id` são preservados durante a sessão.
+- Cliques nos CTAs enviam o evento interno `click_join_whatsapp` para `window.dataLayer`.
+- Após consentimento, o Meta Pixel `3685724848391162` registra `PageView` e o evento personalizado `ClickWhatsAppInvite`.
+- A landing page não dispara `Lead`: clique no convite não comprova entrada no grupo.
+- A entrada confirmada deve ser conciliada separadamente por grupo/coorte e período.
 
 ## Publicação
 
